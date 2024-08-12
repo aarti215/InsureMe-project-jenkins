@@ -38,6 +38,6 @@ pipeline {
            ansiblePlaybook credentialsId: 'ansible', installation: 'ansible', playbook: 'ansible-playbook.yml', vaultTmpPath: ''       
         }
       }
-   }
+   }  
 }                 
 
